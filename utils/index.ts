@@ -34,6 +34,7 @@ export const calculateCarRent = (city_mpg: number, year: number) => {
   return rentalRatePerDay.toFixed(0);
 };
 
+// URL IS INVALID NOW - SITE CHANGED POLICY SO IMAGES OF DIFFERENT CARS DONT WORK  2.09.10YT
 export const generateCarImageUrl = (car: CarProps, angle?: string) => {
   const url = new URL("https://cdn-imagin.studio/getimage");
 
