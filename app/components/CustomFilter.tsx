@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Router, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 import React, { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
