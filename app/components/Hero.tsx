@@ -5,15 +5,14 @@ import CustomButton from "./CustomButton";
 
 export const Hero = () => {
   const handleScroll = () => {};
+  const text =
+    "  YOU CAN SEARCH ANY CAR, YOU WILL GET INFORMATIONS BUT IMAGES NEED money.";
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x ">
-        <h1 className="hero__title">Buy Cars from Germany to Gerogia</h1>
+        <h1 className="hero__title">RENTAL CARS GEORGIA</h1>
 
-        <p className="hero__subtitle">
-          Streamline your car rental experience with our effortless booking
-          process.
-        </p>
+        <p className="hero__subtitle">{text.toLowerCase()}</p>
 
         <CustomButton
           title="Explore cars"
