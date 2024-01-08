@@ -10,8 +10,8 @@ import Image from "next/image";
 import { manufacturers } from "@/constants";
 
 const SearchManufacturer = ({
-  manufacturer,
-  setManufacturer,
+  selected,
+  setSelected,
 }: SearchManufacturerProps) => {
   const [query, setQuery] = useState("");
 
@@ -27,8 +27,8 @@ const SearchManufacturer = ({
         );
 
   return (
-    <div className="search-manufacturer">
-      <Combobox value={manufacturer} onChange={setManufacturer}>
+    <div className="search-selected">
+      <Combobox value={selected} onChange={setSelected}>
         <div className="relative w-full">
           <Combobox.Button className="absolute top-[14px]">
             <Image
@@ -43,7 +43,7 @@ const SearchManufacturer = ({
           <Combobox.Input
             className="search-manufacturer__input"
             placeholder="Volkswagen"
-            displayValue={(manufacturer: string) => manufacturer}
+            displayValue={(selected: string) => selected}
             onChange={(e) => setQuery(e.target.value)}
           />
 
