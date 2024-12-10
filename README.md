@@ -1,6 +1,6 @@
 RENTING CAR SITE.   
 
-Sorry for car images :)) I dont have enough money for API.
+
 
 
 
